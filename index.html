@@ -45,7 +45,7 @@
         <div class="container">
           <div class="hero-text">
             <h3>Hi, There!</h3>
-              <h1>I m <span>John Michael Torres.</span></h1>
+              <h1>I m <span class="input"></span></h1>
               <p>This Is A Test Sample Only, Not Intended For Work.</p>
           </div>
 
@@ -202,10 +202,21 @@
        this.classList.toggle("click");
        navlist.classList.toggle("open");
      });
-
+       
+       
    </script>
-    
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".inpu", {
+        strings:["John Michael Torres.","Web Developer."],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true
+    });
+</script>
+
+   
 <div class="bottom">
   <p>All Rights Reserved.</p>
  </div>
