@@ -336,8 +336,7 @@ h3.my-profession{
     text-align: center;
     position: relative;
     content: '';
-    background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff,
-    #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+    background: linear-gradient(45deg, #151515 , white);
     background-size: 400%;
     width: calc(29% + 4px);
     height: calc(29% + 4px);
