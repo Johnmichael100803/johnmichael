@@ -341,7 +341,7 @@ h3.my-profession{
     background-size: 400%;
     width: calc(29% + 4px);
     height: calc(29% + 4px);
-    border-radius: 5px;
+    border-radius: 20px;
     animation: animate 10s linear infinite;
    
 }
@@ -363,7 +363,7 @@ h3.my-profession{
 .home .home-img img{
     margin: auto;
     margin-top: 6px;
-    border-radius: 5px;
+    border-radius: 20px;
     height: 400px;
 }
 
