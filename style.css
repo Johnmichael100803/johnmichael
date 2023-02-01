@@ -342,7 +342,7 @@ h3.my-profession{
     width: calc(29% + 4px);
     height: calc(29% + 4px);
     border-radius: 20px;
-    animation: animate 10s linear infinite;
+    animation: animate 50s linear infinite;
    
 }
 
