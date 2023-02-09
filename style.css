@@ -334,34 +334,13 @@ h3.my-profession{
 
 .home .home-img{
     text-align: center;
-    position: relative;
-    content: '';
-    background: linear-gradient(45deg, #151515 , white);
-    background-size: 400%;
-    width: calc(29% + 4px);
-    height: calc(29% + 4px);
-    border-radius: 5px;
-    animation: animate 50s linear infinite;
-   
+    position: relative; 
 }
 
-
-@keyframes animate{
-    0%{
-        background-position: 0 0;
-    }
-    50%{
-        background-position: 400% 0;
-    }
-    100%{
-        background-position: 0 0;
-    }
-}
 
 
 .home .home-img img{
     margin: auto;
-    margin-top: 6px;
     border-radius: 5px;
     height: 400px;
 }
